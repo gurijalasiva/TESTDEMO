@@ -26,6 +26,8 @@ public class CommonCSV {
 		 long endTime = System.nanoTime();
 	        long elapsedTimeInMillis = TimeUnit.MILLISECONDS.convert((endTime - startTime), TimeUnit.NANOSECONDS);
 	        System.out.println("Total elapsed time: " + elapsedTimeInMillis + " ms"  );
+	        
+	        System.out.println("Testing....");
 	}
 	
 	public static List<Object> parseCSV(File csvFile) throws IOException {
