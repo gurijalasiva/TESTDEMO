@@ -25,6 +25,7 @@ public class TestPerformance {
 			long end  = System.currentTimeMillis();
 			System.out.println("Time taken : "+(end-start));
 			System.out.println("Total lines : "+lineCnt);
+			System.out.println("Testing...");
 			
 			bufferedReader.close();
 		}catch(Exception ex){
